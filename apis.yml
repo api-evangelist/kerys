@@ -1,7 +1,30 @@
 aid: kerys
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kerys.png
 name: Kerys
-description: Kerys is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kerys Software is a European (Palaiseau, France) cybersecurity company behind
+  YS::Desktop, a Type 1 hypervisor that runs multiple fully isolated environments
+  on a single workstation. By preallocating dedicated CPU cores to the hypervisor
+  versus VM workloads and adding hypervisor-level encryption, YS::Desktop closes VM
+  escape and cross-VM attack vectors while sustaining roughly 92% native performance.
+  It replaces dedicated admin machines, air-gapped OT laptops, and traditional VDI
+  for regulated organizations in aerospace and defense, energy, finance, construction,
+  and the public sector, with a mandatory Security Domain model (no unmanaged VMs)
+  administered through the YAC console. The company positions around NIS2, IEC 62443,
+  and ANSSI multi-environment workstation guidance and sells 100% through resellers.
+  Kerys does not publish a public developer API, developer portal, SDKs, or pricing;
+  it was surfaced as a Seedcamp portfolio company and enriched here from its public site.
 url: https://raw.githubusercontent.com/api-evangelist/kerys/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Cybersecurity
+- Virtualization
+- Type 1 Hypervisor
+- Endpoint Security
+- Secure Workstation
+- OT Security
+- Compliance
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://kerys.software
+  url: https://www.kerys.software/
+- type: Blog
+  url: https://www.kerys.software/blog
+- type: Support
+  url: https://www.kerys.software/contact
+- type: TermsOfService
+  url: https://www.kerys.software/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.kerys.software/policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kerys-software
+- type: YouTube
+  url: https://www.youtube.com/@KERYSSoftware
+- type: LLMsTxt
+  url: llms/kerys-llms.txt
+- type: DomainSecurity
+  url: security/kerys-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
